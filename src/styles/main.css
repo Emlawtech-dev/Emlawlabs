@@ -27,7 +27,7 @@
 
   --text-primary: #e8e8ff;
   --text-secondary: #9090c0;
-  --text-muted: #5050808;
+  --text-muted: #505080;
   --text-muted-2: #606090;
 
   --border: rgba(100, 100, 180, 0.18);
@@ -447,6 +447,29 @@ a:hover { text-decoration: underline; }
   margin-bottom: 16px;
 }
 
+.card-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.card-title-row .card-title { margin-bottom: 0; }
+
+.btn-add-trustline {
+  font-size: 11px;
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  transition: all var(--transition);
+}
+
+.btn-add-trustline:hover {
+  border-color: var(--stellar-blue);
+  color: var(--stellar-blue);
+}
+
 /* Balances */
 .balance-list { display: flex; flex-direction: column; gap: 12px; }
 
@@ -682,7 +705,21 @@ a:hover { text-decoration: underline; }
   text-align: right;
 }
 
-/* QR-like receive box */
+/* QR code */
+.qr-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.qr-code {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: #fff;
+  padding: 10px;
+}
+
+/* Receive address box */
 .receive-address-box {
   background: rgba(10,10,26,0.8);
   border: 1px solid var(--border);
