@@ -7,7 +7,7 @@ welcome.
 ## Development setup
 
 ```bash
-git clone https://github.com/deslawson/Emlawlabs.git
+git clone https://github.com/Emlawtech-dev/Emlawlabs.git
 cd Emlawlabs
 npm install
 npm run dev
@@ -49,10 +49,10 @@ which keeps the rendering logic easy to test and reason about.
 
 ## Ideas for contributions
 
-- Offer swaps via path payments
-- Support multiple saved accounts / a "recent accounts" list
-- Add a `.env`-driven custom Horizon URL for private/testnet-like networks
-- More unit tests around the render functions (e.g. with `jsdom`)
+* Offer swaps via path payments
+* Support multiple saved accounts / a "recent accounts" list
+* Add a `.env`-driven custom Horizon URL for private/testnet-like networks
+* More unit tests around the render functions (e.g. with `jsdom`)
 
 ## Reporting issues
 
@@ -66,3 +66,4 @@ This app is non-custodial and stores nothing server-side. If you find a
 security issue (e.g. a way a secret key could leak), please open an issue
 describing it — there's no funds at stake in the app itself, but we still
 want to know.
+
